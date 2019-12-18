@@ -1,5 +1,7 @@
 {
   "name": "Boomr_clean",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
