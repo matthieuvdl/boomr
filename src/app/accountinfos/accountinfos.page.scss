@@ -17,7 +17,7 @@ ion-toolbar{
     font-family: 'Lato';
     font-size: 18px;
     font-weight: 500;
-    margin-left: 103px;
+    text-align:center;
     padding-bottom: 7px;
   }
   ion-back-button{
@@ -28,21 +28,43 @@ ion-toolbar{
 }
 
 h4{
-  height: 30px;
   letter-spacing: 0.5px;
   color: #ffffff;
   font-family: 'Lato';
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   padding-left: 8%;
   margin-bottom: 15px;
+}
+
+.avatar{
+  margin:0 auto;
+  margin-bottom: 10px;
+}
+
+.name-age{
+  text-align: center;
+  color: #ffffff;
+  margin:0px;
+  margin-bottom: 3px;
+
+  font-family: 'Lato';
+
+}
+
+.location{
+  text-align: center;
+  color: #ffffff;
+  margin:0px;
+  font-family: 'Lato';
+  font-size: 12px;
 }
 
 ion-label{
   color: #ffffff;
   font-family: 'Lato';
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 
 }
 
@@ -62,8 +84,4 @@ ion-item{
   padding-left: 8%;
   --highlight-color-focused	:rgba(0, 0, 255, 0);
   margin-bottom: 25px;
-}
-
-.music-list{
-  --background: rgba(0, 0, 255, 0);
 }
