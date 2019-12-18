@@ -1,0 +1,66 @@
+<ion-content>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" mode="md" defaultHref="#" color="primary"></ion-back-button>
+    </ion-buttons>
+    <h3>Settings</h3>
+    <ion-buttons slot="end">
+      <ion-back-button text="" mode="md" defaultHref="#" routerLink="/tabs/tab1" class="second-icon" icon="../assets/img/v-icon.svg" color="primary">
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <h4 text-wrap>Your picture</h4>
+  <ion-avatar>
+    <img src="assets/img/hanouna.jpg" alt="Cyril">
+  </ion-avatar>
+  <h4 text-wrap>About me</h4>
+  <ion-item class="about-me" center>
+    <ion-label position="stacked">Introduce yourself</ion-label>
+    <ion-textarea></ion-textarea>
+  </ion-item>
+  <h4 text-wrap>My music</h4>
+
+
+  <ion-infinite-scroll>
+      <ion-infinite-scroll-content
+        loadingSpinner="dots">
+        <ion-item class="music-list">
+          <ion-thumbnail slot="start">
+            <img src="http://www.albumrock.net/dyn_img/pochettes_album/253_150.jpg">
+          </ion-thumbnail>
+          <ion-label>Metallica</ion-label>
+          <ion-toggle checked color="dark"></ion-toggle>
+        </ion-item>
+        <ion-item class="music-list">
+          <ion-thumbnail slot="start">
+            <img src="http://www.albumrock.net/dyn_img/pochettes_album/253_150.jpg">
+          </ion-thumbnail>
+          <ion-label>Metallica</ion-label>
+          <ion-toggle checked color="dark"></ion-toggle>
+        </ion-item>
+        <ion-item class="music-list">
+          <ion-thumbnail slot="start">
+            <img src="http://www.albumrock.net/dyn_img/pochettes_album/253_150.jpg">
+          </ion-thumbnail>
+          <ion-label>Metallica</ion-label>
+          <ion-toggle checked color="dark"></ion-toggle>
+        </ion-item>
+        <ion-item class="music-list">
+          <ion-thumbnail slot="start">
+            <img src="http://www.albumrock.net/dyn_img/pochettes_album/253_150.jpg">
+          </ion-thumbnail>
+          <ion-label>Metallica</ion-label>
+          <ion-toggle checked color="dark"></ion-toggle>
+        </ion-item>
+        <ion-item class="music-list">
+          <ion-thumbnail slot="start">
+            <img src="http://www.albumrock.net/dyn_img/pochettes_album/253_150.jpg">
+          </ion-thumbnail>
+          <ion-label>Metallica</ion-label>
+          <ion-toggle checked  color="dark"></ion-toggle>
+        </ion-item>
+      </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</ion-content>

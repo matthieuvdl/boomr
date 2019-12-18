@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+ion-content{
+  --background: linear-gradient(219deg, #f2c419 0%, #ff7767 100%);
+}
+
+ion-toolbar {
+  padding-top: 25px;
+  border-bottom: none;
+  --background: rgba(0, 0, 255, 0);
+}
+
+
+ion-toolbar{
+  h3{
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 103px;
+    padding-bottom: 7px;
+  }
+  ion-back-button{
+    --background:white;
+    width:20px;
+    padding:5px;
+  }
+}
+
+h4{
+  height: 30px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 8%;
+  margin-bottom: 15px;
+}
+
+ion-label{
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 18px;
+  font-weight: 300;
+
+}
+
+ion-avatar{
+  margin-left: 8%;
+  width:100px;
+  height: 100px;
+  margin-bottom: 25px;
+  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.26);
+}
+
+
+ion-item{
+  color:#000;
+  border-style: none;
+  width: 84%;
+  padding-left: 8%;
+  --highlight-color-focused	:rgba(0, 0, 255, 0);
+  margin-bottom: 25px;
+}
+
+.music-list{
+  --background: rgba(0, 0, 255, 0);
+}

@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Profile
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card"
+    color="primary">
+      <img src="/assets/images/image0.jpg/" alt="" />
+      <ion-card-header>
+        <ion-card-subtitle>Hey Julien!</ion-card-subtitle>
+        <ion-card-title>You're now logged in!</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p></p>
+      </ion-card-content>
+    </ion-card>
+    <ion-list lines="none">
+      <ion-list-header>
+        <ion-label>Links</ion-label>
+      </ion-list-header>
+      <ion-item routerLink="/login">
+        <ion-icon slot="start" color="medium" name="log-in"></ion-icon>
+        <ion-label>Test</ion-label>
+      </ion-item>
+      <ion-item routerLink="/accountinfos">
+        <ion-icon slot="start" color="medium" name="log-in"></ion-icon>
+        <ion-label>Profile Edit</ion-label>
+      </ion-item>
+    </ion-list>
+</ion-content>
