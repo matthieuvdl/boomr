@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Boomrr 👋</h1>
+<h1 align="center">Welcome to Boomr 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
@@ -17,7 +17,7 @@
   </a>
 </p>
 
-> Boomer is a dating app using all your musical influences to find a great partner. 
+> Boomr is a dating app using all your musical influences to find a great partner. 
 
 ### 🏠 [Homepage](https://github.com/matthieuvdl/boomr/#readme)
 
@@ -36,7 +36,7 @@ Playstore / Appstore download or APK install
 
 ## Author
 
-👤 **Matthieu Vidal, Julien Brunin, Clement Borie, Pierre Barnstein, Arthur Lallia**
+👤 **Matthieu Vidal, Julien Brunin, Clement Borie, Pierre Bornstein, Arthur Lallia**
 
 * Website: www.matthieuvidal.com
 * Twitter: [@matthieuvdl](https://twitter.com/matthieuvdl)
