@@ -13,3 +13,16 @@ export class AccountinfosPage implements OnInit {
   }
 
 }
+
+@Component({
+  selector: 'slider',
+  templateUrl: './accountinfos.page.html',
+  styleUrls: ['./accountinfos.page.scss'],
+})
+export class SlideExample {
+  slideOpts = {
+    initialSlide: 1,
+    speed: 400
+  };
+  constructor() {}
+}

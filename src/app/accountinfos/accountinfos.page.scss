@@ -35,6 +35,7 @@ h4{
   font-weight: 700;
   padding-left: 8%;
   margin-bottom: 15px;
+  margin-left: 10%;
 }
 
 .avatar{
@@ -84,4 +85,18 @@ ion-item{
   padding-left: 8%;
   --highlight-color-focused	:rgba(0, 0, 255, 0);
   margin-bottom: 25px;
+}
+
+ion-slides{
+  margin-left: 5%;
+  width:90%;
+  height: 25%;
+  margin-bottom: 25px;
+  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.26);
+  z-index: 1;
+}
+
+h1{
+  margin-bottom: 5%;
+  margin-top: 7%;
 }
