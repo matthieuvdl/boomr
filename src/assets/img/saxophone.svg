@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56.394" height="70.735" viewBox="0 0 56.394 70.735">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2c419"/>
+      <stop offset="1" stop-color="#ff7767"/>
+    </linearGradient>
+  </defs>
+  <g id="saxophone" transform="matrix(0.966, -0.259, 0.259, 0.966, -75.058, 30.92)">
+    <g id="Groupe_59" data-name="Groupe 59" transform="translate(97.579 61.419)">
+      <g id="Groupe_58" data-name="Groupe 58" transform="translate(0)">
+        <path id="Tracé_43" data-name="Tracé 43" d="M241.714,506.866h0Z" transform="translate(-241.709 -506.866)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Groupe_61" data-name="Groupe 61" transform="translate(77.706 0)">
+      <g id="Groupe_60" data-name="Groupe 60" transform="translate(0 0)">
+        <path id="Tracé_44" data-name="Tracé 44" d="M117.552,1.914a6.557,6.557,0,0,0-9.263,0l-1.668,1.668-.6-.6a2.234,2.234,0,0,0-3.159,3.159l3.123,3.123a1.67,1.67,0,0,0,2.361,0l3.647-3.647a1.31,1.31,0,1,1,1.852,1.852s-2.13,2.076-2.46,2.407l-5.2,4.817-.854-.854a2.354,2.354,0,0,0-3.234-.123,2.311,2.311,0,0,0-.081,3.345l.9.9-1.525,1.525-.854-.854a2.354,2.354,0,0,0-3.234-.123,2.311,2.311,0,0,0-.081,3.345l.9.9-1.634,1.634-.854-.854a2.354,2.354,0,0,0-3.234-.123,2.311,2.311,0,0,0-.081,3.345l.9.9L91.7,29.186l-.854-.854a2.354,2.354,0,0,0-3.234-.123,2.311,2.311,0,0,0-.081,3.345l.9.9L81.6,39.286a13.327,13.327,0,0,0,18.847,18.847l.226-.226a18.561,18.561,0,0,1,10.916-5.288c.685.353,1.286.666,1.833.955-.937-5.533-2.316-13.649-3.1-18.245-.492.146-.986.3-1.469.461-.133.03-.274.055-.414.083l.007.048A44.806,44.806,0,0,0,91.7,46.44a2.455,2.455,0,0,1-3.46.034,2.382,2.382,0,0,1,.018-3.348L116.432,12.5l1.118-1.321A6.558,6.558,0,0,0,117.552,1.914Z" transform="translate(-77.706 0)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Groupe_63" data-name="Groupe 63" transform="translate(113.535 33.416)">
+      <g id="Groupe_62" data-name="Groupe 62" transform="translate(0)">
+        <path id="Tracé_45" data-name="Tracé 45" d="M380.73,294.585l-2.821-16.545a2.689,2.689,0,0,0-3.171-2.208h0a3.688,3.688,0,0,0-1.347.475,3.317,3.317,0,0,1,.184.677l3.561,20.712a3.628,3.628,0,0,0,1.346.047l.006.006A2.727,2.727,0,0,0,380.73,294.585Z" transform="translate(-373.391 -275.768)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>
