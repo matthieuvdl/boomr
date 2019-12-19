@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 ion-content{
-  --background: url(../../assets/img/background-login.jpg);
-  --background-repeat: no-repeat;
-  --background-size: cover;  
+  --background: url(../../assets/img/bg.jpg) 0 0/100% 100% no-repeat ;
 }
 .logo-top{
   width: 243px;

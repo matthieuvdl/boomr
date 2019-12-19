@@ -7,7 +7,7 @@
     </ion-buttons>
     <h3>Profile</h3>
     <ion-buttons slot="end">
-      <ion-back-button text="" mode="md" defaultHref="#" class="second-icon" icon="../assets/img/v-icon.svg" color="primary">
+      <ion-back-button text="" mode="md" defaultHref="#" routerLink="/tabs/tab1" class="second-icon" icon="../assets/img/v-icon.svg" color="primary">
       </ion-back-button>
     </ion-buttons>
   </ion-toolbar>
@@ -21,5 +21,65 @@
 
   <h4 text-wrap>Favorite musical genres</h4>
 
-  
+  <ion-slides class="slider" pager="true" [options]="slideOpts">
+
+      <ion-slide>
+        <h1><img  src="assets/img/type/Metal.png" alt="Metal"></h1>
+      </ion-slide>
+
+      <ion-slide>
+        <h1><img  src="assets/img/type/Rock.png" alt="Rock"></h1>
+      </ion-slide>
+
+      <ion-slide>
+        <h1><img  src="assets/img/type/Jazz.png" alt="Jazz"></h1>
+      </ion-slide>
+
+  </ion-slides>
+
+  <h4 text-wrap>Favorite music</h4>
+
+  <ion-slides class="slider" pager="true" [options]="slideOpts">
+
+    <ion-slide>
+      <h1><img  src="assets/img/music/rock-image.png" alt="rock-image"></h1>
+    </ion-slide>
+
+    <ion-slide>
+      <h1><img  src="assets/img/music/rock-image.png" alt="rock-image"></h1>
+    </ion-slide>
+
+    <ion-slide>
+      <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+    </ion-slide>
+
+    <ion-slide>
+      <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+    </ion-slide>
+
+    <ion-slide>
+      <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+    </ion-slide>
+
+    <ion-slide>
+      <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+    </ion-slide>
+    <ion-slide>
+      <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+    </ion-slide>
+
+    <ion-slide>
+      <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+    </ion-slide>
+
+    <ion-slide>
+      <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+    </ion-slide>
+
+    <ion-slide>
+      <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+    </ion-slide>
+
+</ion-slides>
+
 </ion-content>
