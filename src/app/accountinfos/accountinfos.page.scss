@@ -5,13 +5,14 @@ ion-content{
 }
 
 .black-header{
-  background: rgba(0, 0, 0, 0.56);
+  background-color: #1c1c1c;
   clip-path: ellipse(72% 96% at 50% 4%);
   z-index:0;
+
 }
 
 ion-toolbar {
-  padding-top: 25px;
+  padding-top: 15px;
   border-bottom: none;
   --background: rgba(0, 0, 255, 0);
 }
@@ -37,14 +38,30 @@ h4{
   letter-spacing: 0.5px;
   color: #ffffff;
   font-family: 'Lato';
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 15px;
 }
 
-h6{
-  padding-bottom: 5px;
+.cross{
+    --background:white;
+    width:30px;
+    height: 30px;
+    margin-left:30%;
+    margin-bottom: 20px;
+        ion-icon{
+            fill: black;
+            width:15px;
+        }
+}
+
+.chat{
+    --background:white;
+    width:30px;
+    height: 30px;
+    object-fit:fill;
+    margin-left: 24%;
+    margin-bottom: 20px;
 }
 
 .avatar{
@@ -54,7 +71,10 @@ h6{
   height: 100px;
   margin-bottom: 10px;
   box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.26);
+}
 
+h6{
+  padding-bottom: 10px;
 }
 
 .name-age{
@@ -97,7 +117,6 @@ ion-item{
 ion-slides{
   margin:0 auto;
   width:90%;
-  height: 25%;
   z-index: 1;
 }
 
@@ -105,9 +124,8 @@ ion-slide{
   margin-left: 7px;
 
     img{
-      margin-bottom: 15px;
+      margin-bottom: 5px;
       width: 142px;
-      height: 146px;
       object-fit:fill;
     }
 }

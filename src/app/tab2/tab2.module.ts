@@ -15,3 +15,4 @@ import { Tab2Page } from './tab2.page';
   declarations: [Tab2Page]
 })
 export class Tab2PageModule {}
+
