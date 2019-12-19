@@ -17,11 +17,21 @@
     fill="solid"
     shape="round"
     size = "large"
-    class="submit-btn button-block"
+    class="spotify-btn button-block"
     type="submit"
     (click)='authWithSpotify()'>
     Connect with Spotify <img src="assets/img/spotify-logo.svg" alt="Spotify Logo" >
   </ion-button>
-  <ion-button routerLink="/accountinfos">Test</ion-button>
-  {{result | json}}
+  <ion-button
+    color="dark"
+    expand="block"
+    fill="solid"
+    shape="round"
+    size = "large"
+    class="submit-btn button-block"
+    type="submit"
+    routerLink="/tabs">
+    Continue
+  </ion-button>
+
 </ion-content>
