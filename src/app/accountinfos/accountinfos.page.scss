@@ -4,6 +4,12 @@ ion-content{
   --background: linear-gradient(219deg, #f2c419 0%, #ff7767 100%);
 }
 
+.black-header{
+  background: rgba(0, 0, 0, 0.56);
+  clip-path: ellipse(72% 96% at 50% 4%);
+  z-index:0;
+}
+
 ion-toolbar {
   padding-top: 25px;
   border-bottom: none;
@@ -31,16 +37,24 @@ h4{
   letter-spacing: 0.5px;
   color: #ffffff;
   font-family: 'Lato';
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
-  padding-left: 8%;
+  text-align: center;
   margin-bottom: 15px;
-  margin-left: 10%;
+}
+
+h6{
+  padding-bottom: 5px;
 }
 
 .avatar{
   margin:0 auto;
+  margin-bottom: 5px;
+  width:100px;
+  height: 100px;
   margin-bottom: 10px;
+  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.26);
+
 }
 
 .name-age{
@@ -69,13 +83,6 @@ ion-label{
 
 }
 
-ion-avatar{
-  margin-left: 8%;
-  width:100px;
-  height: 100px;
-  margin-bottom: 25px;
-  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.26);
-}
 
 
 ion-item{
@@ -88,15 +95,23 @@ ion-item{
 }
 
 ion-slides{
-  margin-left: 5%;
+  margin:0 auto;
   width:90%;
   height: 25%;
-  margin-bottom: 25px;
-  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.26);
   z-index: 1;
 }
 
-h1{
-  margin-bottom: 5%;
-  margin-top: 7%;
+ion-slide{
+  margin-left: 7px;
+
+    img{
+      margin-bottom: 15px;
+      width: 142px;
+      height: 146px;
+      object-fit:fill;
+    }
+}
+
+h5{
+  text-align: center;
 }

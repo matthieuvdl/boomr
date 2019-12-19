@@ -15,3 +15,16 @@ import { Tab2Page } from './tab2.page';
   declarations: [Tab2Page]
 })
 export class Tab2PageModule {}
+
+@Component({
+  selector: 'slider',
+  templateUrl: './accountinfos.page.html',
+  styleUrls: ['./accountinfos.page.scss'],
+})
+export class SlideExample {
+  slideOpts = {
+    initialSlide: 1,
+    speed: 400
+  };
+  constructor() {}
+}
