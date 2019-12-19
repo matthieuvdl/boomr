@@ -17,7 +17,11 @@ const routes: Routes = [
   {
     path: 'accountinfos',
     loadChildren: () => import('./accountinfos/accountinfos.module').then( m => m.AccountinfosPageModule)
+  },  {
+    path: 'conversation',
+    loadChildren: () => import('./conversation/conversation.module').then( m => m.ConversationPageModule)
   }
+
 ];
 @NgModule({
   imports: [
