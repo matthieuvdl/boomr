@@ -20,6 +20,10 @@ const routes: Routes = [
   },  {
     path: 'conversation',
     loadChildren: () => import('./conversation/conversation.module').then( m => m.ConversationPageModule)
+  },
+  {
+    path: 'filter',
+    loadChildren: () => import('./filter/filter.module').then( m => m.FilterPageModule)
   }
 
 ];

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+ion-content{
+  --background: #1C1C1C;
+}
+
+
+ion-toolbar {
+  padding-top: 15px;
+  border-bottom: none;
+  --background: rgba(0, 0, 255, 0);
+}
+
+
+ion-toolbar{
+  h3{
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 500;
+    text-align:center;
+    padding-bottom: 7px;
+  }
+  ion-back-button{
+      --background: white;
+      width:20px;
+      padding:5px;
+  }
+}
+
+ion-range{
+    --bar-height:15px;
+    --bar-border-radius:7px;
+    --bar-background:#313131;
+    --pin-color:#FFF;
+    --knob-size:20px;
+}
+
+h4{
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+ion-item{
+    --background: #1C1C1C;
+    margin-bottom: 20px;
+    p{
+        color:white;
+        font-family: 'Lato';
+    }
+}

@@ -4,11 +4,15 @@
     <div class="black-header">
       <ion-toolbar>
         <h3>Discover</h3>
+        <ion-button slot="end" routerLink="/filter" class="settings" shape="round" size="small" text="">
+          <ion-icon src="assets/img/settings-icon.svg"></ion-icon>
+        </ion-button>
       </ion-toolbar>
 
       <ion-avatar class="avatar">
         <img src="assets/img/hanouna.jpg" alt="Cyril">
       </ion-avatar>
+
 
       <h5 class="name-age">Cyril, 44</h5>
       <h6 class="location">Paris</h6>
@@ -23,6 +27,7 @@
     </div>
       <h4 start>Favorite musical genres</h4>
     
+      <div class="slider-bg">
       <ion-slides class="slider" pager="true" [options]="slideOpts">
     
           <ion-slide center>
@@ -38,9 +43,11 @@
           </ion-slide>
     
       </ion-slides>
+      </div>
     
       <h4 text-wrap>Favorite music</h4>
     
+      <div class="slider-bg">
       <ion-slides class="slider" pager="true" >
     
         <ion-slide>
@@ -83,6 +90,7 @@
         </ion-slide>
     
     </ion-slides>
+  </div>
     
     
 </ion-content>
