@@ -19,7 +19,9 @@
     size = "large"
     class="submit-btn button-block"
     type="submit"
-    routerLink="/accountinfos">
-    Connect with Spotify<img src="assets/img/spotify-logo.svg" alt="Spotify Logo" >
+    (click)='authWithSpotify()'>
+    Connect with Spotify <img src="assets/img/spotify-logo.svg" alt="Spotify Logo" >
   </ion-button>
+  <ion-button routerLink="/accountinfos">Test</ion-button>
+  {{result | json}}
 </ion-content>
