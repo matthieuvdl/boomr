@@ -17,7 +17,8 @@ const routes: Routes = [
   {
     path: 'accountinfos',
     loadChildren: () => import('./accountinfos/accountinfos.module').then( m => m.AccountinfosPageModule)
-  },  {
+  },
+  {
     path: 'conversation',
     loadChildren: () => import('./conversation/conversation.module').then( m => m.ConversationPageModule)
   },
@@ -40,6 +41,10 @@ const routes: Routes = [
   {
     path: 'user5',
     loadChildren: () => import('./user5/user5.module').then( m => m.User5PageModule)
+  },
+  {
+    path: 'filter',
+    loadChildren: () => import('./filter/filter.module').then( m => m.FilterPageModule)
   }
 
 ];

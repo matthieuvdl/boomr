@@ -1,0 +1,39 @@
+<ion-content>
+
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" mode="md" defaultHref="#" color="primary"></ion-back-button>
+    </ion-buttons>
+    <h3>Filters</h3>
+    <ion-buttons slot="end">
+      <ion-back-button text="" mode="md" defaultHref="#" class="second-icon" icon="../assets/img/v-icon.svg" color="primary">
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <h4>Age</h4>
+  <ion-item>
+    <ion-range id="dual-range" mode="ios" dual-knobs pin color="primary" min="18" max="80" step="1">
+      <p slot="start">18</p>
+      <p slot="end">80</p>
+    </ion-range>
+  </ion-item>
+
+  <h4>Distance</h4>
+  <ion-item>
+    <ion-range id="dual-range" mode="ios" dual-knobs pin color="primary" min="0" max="100" step="1">
+      <p slot="start">0 km</p>
+      <p slot="end">100km</p>
+    </ion-range>
+  </ion-item>
+
+  <h4>Music compatibility</h4>
+  <ion-item>
+    <ion-range id="dual-range" mode="ios" dual-knobs pin color="primary" min="5" max="50" step="1">
+      <p slot="start">5%</p>
+      <p slot="end">50%</p>
+    </ion-range>
+  </ion-item>
+
+
+</ion-content>

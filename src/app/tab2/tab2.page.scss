@@ -27,11 +27,6 @@ ion-toolbar{
     text-align:center;
     padding-bottom: 7px;
   }
-  ion-back-button{
-    --background:white;
-    width:20px;
-    padding:5px;
-  }
 }
 
 
@@ -45,10 +40,19 @@ h4{
   text-align: center;
 }
 
+.settings{
+  --background:white;
+  width:35px;
+  height: 35px;
+  margin:0 auto;
+  position: absolute;
+  right:2%;
+}
+
 .cross{
     --background:white;
-    width:30px;
-    height: 30px;
+    width:35px;
+    height: 35px;
     margin-left:30%;
     margin-bottom: 20px;
         ion-icon{
@@ -59,10 +63,10 @@ h4{
 
 .chat{
     --background:white;
-    width:30px;
-    height: 30px;
+    width:35px;
+    height: 35px;
     object-fit:fill;
-    margin-left: 24%;
+    margin-left: 21%;
     margin-bottom: 20px;
 }
 
@@ -102,7 +106,11 @@ ion-label{
 
 }
 
-
+.slider-bg{
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+  margin: 0px 0px;
+}
 
 ion-item{
   color:#000;
