@@ -20,6 +20,26 @@ const routes: Routes = [
   },  {
     path: 'conversation',
     loadChildren: () => import('./conversation/conversation.module').then( m => m.ConversationPageModule)
+  },
+  {
+    path: 'user1',
+    loadChildren: () => import('./user1/user1.module').then( m => m.User1PageModule)
+  },
+  {
+    path: 'user2',
+    loadChildren: () => import('./user2/user2.module').then( m => m.User2PageModule)
+  },
+  {
+    path: 'user3',
+    loadChildren: () => import('./user3/user3.module').then( m => m.User3PageModule)
+  },
+  {
+    path: 'user4',
+    loadChildren: () => import('./user4/user4.module').then( m => m.User4PageModule)
+  },
+  {
+    path: 'user5',
+    loadChildren: () => import('./user5/user5.module').then( m => m.User5PageModule)
   }
 
 ];
