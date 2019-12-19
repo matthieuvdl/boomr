@@ -26,6 +26,3 @@ export class SlideExample {
   };
   constructor() {}
 }
-
-
-

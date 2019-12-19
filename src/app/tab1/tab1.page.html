@@ -1,34 +1,95 @@
-<ion-header>
+<!-- <ion-header>
   <ion-toolbar>
     <ion-title>
       Profile
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
+
 
 <ion-content>
-    <ion-card class="welcome-card"
-    color="primary">
-      <img src="/assets/images/image0.jpg/" alt="" />
-      <ion-card-header>
-        <ion-card-subtitle>Hey Julien!</ion-card-subtitle>
-        <ion-card-title>You're now logged in!</ion-card-title>
-      </ion-card-header>
-      <ion-card-content>
-        <p></p>
-      </ion-card-content>
-    </ion-card>
-    <ion-list lines="none">
-      <ion-list-header>
-        <ion-label>Links</ion-label>
-      </ion-list-header>
-      <ion-item routerLink="/login">
-        <ion-icon slot="start" color="medium" name="log-in"></ion-icon>
-        <ion-label>Test</ion-label>
-      </ion-item>
-      <ion-item routerLink="/accountinfos">
-        <ion-icon slot="start" color="medium" name="log-in"></ion-icon>
-        <ion-label>Profile Edit</ion-label>
-      </ion-item>
-    </ion-list>
-</ion-content>
+  <div class="black-header">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="" mode="md" defaultHref="#" routerLink="/login" color="danger"></ion-back-button>
+      </ion-buttons>
+      <h3>About Me</h3>
+      <ion-buttons slot="end">
+        <ion-back-button text="" mode="md" defaultHref="#" routerLink="/tabs/tab2" class="second-icon" icon="../assets/img/v-icon.svg" color="primary">
+        </ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  
+    <ion-avatar class="avatar">
+      <img src="assets/img/hanouna.jpg" alt="Cyril">
+    </ion-avatar>
+  
+    <h5 class="name-age">Cyril, 44</h5>
+    <h6 class="location">Paris</h6>
+  
+  </div>
+    <h4 start>Favorite musical genres</h4>
+  
+    <ion-slides class="slider" pager="true" [options]="slideOpts">
+  
+        <ion-slide center>
+          <h5><img  src="assets/img/type/Metal.png" alt="Metal"></h5>
+        </ion-slide>
+  
+        <ion-slide>
+          <h5><img  src="assets/img/type/Rock.png" alt="Rock"></h5>
+        </ion-slide>
+  
+        <ion-slide>
+          <h5><img  src="assets/img/type/Jazz.png" alt="Jazz"></h5>
+        </ion-slide>
+  
+    </ion-slides>
+  
+    <h4 text-wrap>Favorite music</h4>
+  
+    <ion-slides class="slider" pager="true" >
+  
+      <ion-slide>
+        <h1><img  src="assets/img/music/metallica.png" alt="rock-image"></h1>
+      </ion-slide>
+  
+      <ion-slide>
+        <h1><img  src="assets/img/music/mask-off.png" alt="rock-image"></h1>
+      </ion-slide>
+  
+      <ion-slide>
+        <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+      </ion-slide>
+  
+      <ion-slide>
+        <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+      </ion-slide>
+  
+      <ion-slide>
+        <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+      </ion-slide>
+  
+      <ion-slide>
+        <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+      </ion-slide>
+      <ion-slide>
+        <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+      </ion-slide>
+  
+      <ion-slide>
+        <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+      </ion-slide>
+  
+      <ion-slide>
+        <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+      </ion-slide>
+  
+      <ion-slide>
+        <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+      </ion-slide>
+  
+  </ion-slides>
+  
+  </ion-content>
+  
