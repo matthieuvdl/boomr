@@ -1,6 +1,4 @@
 <ion-content>
-
-
     <div class="black-header">
       <ion-toolbar>
         <h3>Discover</h3>
@@ -10,14 +8,14 @@
       </ion-toolbar>
 
       <ion-avatar class="avatar">
-        <img src="assets/img/hanouna.jpg" alt="Cyril">
+        <img src="assets/img/hanouna.jpg" alt="{{name}}">
       </ion-avatar>
 
 
-      <h5 class="name-age">Cyril, 44</h5>
-      <h6 class="location">Paris</h6>
+      <h5 class="name-age">{{name}}, {{age}}</h5>
+      <h6 class="location">{{ville}}</h6>
 
-      <ion-button class="cross" shape="round" size="small" text="">
+      <ion-button class="cross" shape="round" size="small" text="" (click)='launchInfoset()'>
         <ion-icon src="assets/img/cross.svg"></ion-icon>
       </ion-button>
       <ion-button class="chat" shape="round" size="small" text="">
@@ -28,18 +26,18 @@
       <h4 start>Favorite musical genres</h4>
     
       <div class="slider-bg">
-      <ion-slides class="slider" pager="true" [options]="slideOpts">
+      <ion-slides class="slider" pager="true">
     
           <ion-slide center>
-            <h5><img  src="assets/img/type/Metal.png" alt="Metal"></h5>
+            <h1><img  src="assets/img/type/genre-{{genreId1}}.png" alt="{{genreId1}}"></h1>
           </ion-slide>
     
           <ion-slide>
-            <h5><img  src="assets/img/type/Rock.png" alt="Rock"></h5>
+            <h1><img  src="assets/img/type/genre-{{genreId2}}.png" alt="{{genreId2}}"></h1>
           </ion-slide>
     
           <ion-slide>
-            <h5><img  src="assets/img/type/Jazz.png" alt="Jazz"></h5>
+            <h1><img  src="assets/img/type/genre-{{genreId3}}.png" alt="{{genreId3}}"></h1>
           </ion-slide>
     
       </ion-slides>
@@ -66,31 +64,6 @@
           <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
         </ion-slide>
     
-        <ion-slide>
-          <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
-        </ion-slide>
-    
-        <ion-slide>
-          <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
-        </ion-slide>
-        <ion-slide>
-          <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
-        </ion-slide>
-    
-        <ion-slide>
-          <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
-        </ion-slide>
-    
-        <ion-slide>
-          <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
-        </ion-slide>
-    
-        <ion-slide>
-          <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
-        </ion-slide>
-    
     </ion-slides>
   </div>
-    
-    
 </ion-content>
