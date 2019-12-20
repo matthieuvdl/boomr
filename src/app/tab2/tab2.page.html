@@ -8,7 +8,7 @@
       </ion-toolbar>
 
       <ion-avatar class="avatar">
-        <img src="assets/img/hanouna.jpg" alt="{{name}}">
+        <img src="assets/img/avatars/{{avatar}}" alt="{{name}}">
       </ion-avatar>
 
 
@@ -18,7 +18,7 @@
       <ion-button class="cross" shape="round" size="small" text="" (click)='launchInfoset()'>
         <ion-icon src="assets/img/cross.svg"></ion-icon>
       </ion-button>
-      <ion-button class="chat" shape="round" size="small" text="">
+      <ion-button class="chat" shape="round" routerLink="/tabs/tab3" size="small" text="">
         <ion-icon src="assets/img/chat.svg" color="primary"></ion-icon>
       </ion-button>
     
@@ -49,19 +49,19 @@
       <ion-slides class="slider" pager="true" >
     
         <ion-slide>
-          <h1><img  src="assets/img/music/metallica.png" alt="rock-image"></h1>
+          <h1><img  src="assets/img/covers/{{albumId1}}.jpg" alt="{{albumId1}}"></h1>
         </ion-slide>
     
         <ion-slide>
-          <h1><img  src="assets/img/music/mask-off.png" alt="rock-image"></h1>
+          <h1><img  src="assets/img/covers/{{albumId2}}.jpg" alt="{{albumId2}}"></h1>
         </ion-slide>
     
         <ion-slide>
-          <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+          <h1><img  src="assets/img/covers/{{albumId3}}.jpg" alt="{{albumId3}}"></h1>
         </ion-slide>
     
         <ion-slide>
-          <h1><img  src="assets/img/rock-image.png" alt="rock-image"></h1>
+          <h1><img  src="assets/img/covers/{{albumId4}}.jpg" alt="{{albumId1}}"></h1>
         </ion-slide>
     
     </ion-slides>
