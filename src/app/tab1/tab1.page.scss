@@ -104,7 +104,11 @@ ion-label{
 
 }
 
-
+.slider-bg{
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+  margin: 0px 0px;
+}
 
 ion-item{
   color:#000;
@@ -125,7 +129,7 @@ ion-slide{
   margin-left: 7px;
 
     img{
-      margin-bottom: 5px;
+      margin-bottom: 15px;
       width: 142px;
       object-fit:fill;
     }
